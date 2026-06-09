@@ -69,7 +69,7 @@ const stats = [
 ];
 
 const plans = [
-  ["Starter", "$50", "1.4 pips", "1:100", "Standard", false],
+  ["Starter", "$125", "1.4 pips", "1:100", "Standard", false],
   ["Pro", "$1,000", "0.7 pips", "1:300", "Priority", true],
   ["Elite", "$10,000", "0.2 pips", "1:500", "Dedicated"],
   ["VIP", "$100,000", "Raw", "Custom", "Private desk"]
