@@ -83,7 +83,7 @@ const testimonials = [
 
 const faqs = [
   ["Is trading secure?", "Yes. Exness Global uses passkeys, encrypted vaults, cold storage architecture and real-time fraud monitoring."],
-  ["Minimum deposit?", "Starter accounts begin at $50, with higher tiers unlocking tighter spreads, more analytics and priority support."],
+  ["Minimum deposit?", "Starter accounts begin at $125, with higher tiers unlocking tighter spreads, more analytics and priority support."],
   ["Withdrawal time?", "Most card and crypto withdrawals are processed within minutes after security checks. Bank transfers vary by region."],
   ["Regulation?", "The design includes a compliance-ready legal area, risk disclaimer, KYC flows and jurisdiction-aware account controls."],
   ["Demo account availability?", "Yes. Users can launch a funded demo workspace with simulated forex, crypto and stock liquidity."]
