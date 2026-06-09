@@ -304,7 +304,7 @@ function VariantShowcase({ data }: { data: PageData }) {
       <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-3">
         {[
           ["Email", "support@exnessglobal.example", Mail],
-          ["Whatsapp Support", "+91 9109108975", Whatsapp Support],
+          ["Whatsapp", "+91 9109108975", Whatsapp],
           ["Office", "Global trading desk", MapPin]
         ].map(([label, value, Icon]) => (
           <div key={label as string} className="gradient-border glass rounded-[2rem] p-6">
