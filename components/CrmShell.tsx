@@ -216,7 +216,7 @@ function ClientDeposits({ user, state, reload }: { user: Omit<CrmUser, "password
     return (
       <section className="rounded border border-amber-300 bg-amber-50 p-6 text-amber-900 shadow-sm">
         <h2 className="text-xl font-bold">Deposit Page Locked</h2>
-        <p className="mt-2 text-sm">Jab tak client KYC submit karke admin se approve nahi karwata, tab tak deposit page locked rahega.</p>
+        <p className="mt-2 text-sm">Complete your KYC first, after that, you can make a deposit.</p>
         <div className="mt-4"><Badge value={`KYC ${user.kycStatus}`} /></div>
         <a href="/client/kyc" className="mt-5 inline-block rounded bg-amber-600 px-5 py-3 text-sm font-semibold text-white">Go to KYC Verification</a>
       </section>
@@ -227,7 +227,7 @@ function ClientDeposits({ user, state, reload }: { user: Omit<CrmUser, "password
     <div className="grid gap-5">
       <section className="rounded border border-slate-200 bg-white p-5 shadow-sm">
         <h2 className="text-lg font-bold">Deposit</h2>
-        <p className="mt-1 text-sm text-slate-500">Client jo method select karega, sirf uski admin-added details show hongi.</p>
+        <p className="mt-1 text-sm text-slate-500">please select payment method.</p>
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           <select value={method} onChange={(event) => setMethod(event.target.value as keyof PaymentDetails)} className={darkSelect}><option>UPI</option><option>Bank Transfer</option><option>USDT</option></select>
           <div className="rounded border border-blue-100 bg-blue-50 p-4 text-sm"><p className="font-bold">{state.paymentDetails[method].value}</p><p className="mt-1 text-slate-600">{state.paymentDetails[method].note}</p></div>
